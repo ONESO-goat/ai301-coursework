@@ -1,20 +1,4 @@
 # rubric.md
-<!-- 
-## Check 1: Activity Status
-- **Rule:** The target repository and the issue must be active. 
-- **Pass Condition:** The issue is currently open (not closed or completed), and the repository has received at least one commit, merge, or pull request within the last 6 months.
-- **Fail Condition:** The issue is already closed/resolved, or the repository has had no activity in over 6 months.
-
-## Check 2: Tech Stack Compatibility
-- **Rule:** The issue must primarily involve one of the core programming languages supported by the project and preferred by the developer: Python, C++, or Rust (Java, JavaScript, TypeScript, C, and Go are acceptable secondary languages).
-- **Pass Condition:** The files affected or created by the issue are written in Python, C++, Rust, Java, JavaScript, TypeScript, C, or Go.
-- **Fail Condition:** The issue relies entirely on languages outside this list (e.g., Ruby, PHP, shell scripts only, or HTML/CSS-only tasks).
-
-## Check 3: Issue Description Quality
-- **Rule:** The issue must provide enough technical context for a developer to begin work without guessing.
-- **Pass Condition:** The description explicitly identifies at least one specific file path, function name, or error log, AND provides clear steps or context for what needs to be fixed.
-- **Fail Condition:** The description is a vague one-liner lacking file paths, function names, or actionable context.
- -->
 
 
 # Rubric: is this a good first issue?
