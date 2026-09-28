@@ -1,6 +1,3 @@
-Here is the completed markdown file for your `beat-1-sandbox/unit-2/reproduction.md`.
-
-*Note: For the **Eval iterations** section, placeholders like `[20/20]` and `pkg-05` are used. Be sure to quickly check your final eval run score and plug in your actual numbers/package ID before committing.*
 
 # Unit 2 — Claim and Reproduce
 
