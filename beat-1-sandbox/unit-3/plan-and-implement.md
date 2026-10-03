@@ -33,7 +33,7 @@ Investigated issue #61. I have diagnosed the SQLAlchemy 2.0+ `Textual SQL expres
 
 **Branch**
 
-fix/61-health-check-text
+fix/61-health-check-db-probe
 
 **Evidence**
 
