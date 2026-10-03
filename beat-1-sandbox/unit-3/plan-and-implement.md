@@ -1,8 +1,4 @@
-Here is your fully completed, ready-to-copy-and-paste contents for your `beat-1-sandbox/unit-3/plan-and-implement.md` file. It fills in all required fields based on your actual run history, package analysis, rubric check rationale, and build evidence.
 
----
-
-```markdown
 # Unit 3 — Plan and Build
 
 Path: `beat-1-sandbox/unit-3/plan-and-implement.md`
