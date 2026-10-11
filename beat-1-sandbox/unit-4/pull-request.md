@@ -15,15 +15,11 @@ label is not graded.
 
 **Pull request**
 
-[Link to the pull request you opened. It must be the pull request's own page on the Path
-Review repo, not your fork's branch page.]
+https://github.com/codepath/pathreview-ai301-fa26-s1/pull/128#issue-5802205234
 
 **Branch**
+`fix/61-health-check-db-probe`
 
-[The name of the branch the pull request comes from, exactly as it appears in your fork.
-The naming shape is a type prefix, then the issue number, then a short description. **The
-issue number in the branch name must be the number of the issue the pull request fixes** —
-a name carrying any other number does not satisfy this field.]
 
 ## Eval iterations
 
@@ -32,28 +28,21 @@ fields.
 
 **Run history**
 
-[The agreement score of each run you did, in order. A single run is a complete answer if
-only one run occurred. **The last score in your list must match the agreement line in the
-`eval-run.txt` you committed** — that file is the record of your final run.]
+- Run 1: 20/20 (`eval-run.txt`)
 
 **Package analysis**
 
-[Pick one scored package (`pkg-01` through `pkg-20` — the four `calib-` packages are never
-scored). Name it by id, say what your rubric decided and what the gold label said, and
-explain why your rubric read it that way.]
+pkg-01: My rubric decided `reject` because the candidate pull request failed to include the required PR template sections and mandatory disclosures, triggering a standards-wall violation. The gold label agreed with `reject` because the package omitted mandatory repository template requirements.
 
 **Check rationale**
 
-[Quote one check from the `rubric.md` you uploaded to `tools/pr-precheck/`, exactly as it reads now.
-Then say why it reads that way — what you revised to get there, or what you rejected in
-favour of it.]
+| **plan-fidelity** | The diff (`git diff main...HEAD`) read against `plan.md` and any notes under `## Deviations` | Passes if every change in the diff is authorized by the plan or explicitly disclosed and justified as a deviation. | required |
+
+This reads this way because it was revised from a vague structure-based rule into a concrete, observable condition that another grader can objectively evaluate by comparing the exact changed files in the diff against the explicit boundaries authorized in `plan.md`.
 
 **Trade-offs**
 
-[Every check gives something up. Any one of these is a complete answer: a package whose
-result it changes, a canary you re-ran with `--only`, a case you accept it will miss, or a
-stated reason nothing changed elsewhere. "Nothing changed, and here is how I know" earns
-the point in full when the reason follows.]
+Nothing changed. I know this because running the test harness against our final rubric successfully yielded 20/20 agreement on the first full run with all category floors matched, meaning no further check loosening or canary debugging was required.
 
 ---
 
